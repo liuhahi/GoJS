@@ -6,6 +6,12 @@
   "author": "Northwoods Software (https://gojs.net)",
   "dependencies": {
     "gojs": ">=1.5.18",
-    "phantomjs": "^1.9.19"
-  }
+    "phantomjs": "^1.9.19",
+    "snyk": "^1.83.0"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
