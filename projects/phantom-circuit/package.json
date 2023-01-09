@@ -6,6 +6,6 @@
   "author": "Northwoods Software (https://gojs.net)",
   "dependencies": {
     "gojs": ">=1.5.18",
-    "phantomjs": "^1.9.19"
+    "phantomjs": "^2.1.1"
   }
 }
